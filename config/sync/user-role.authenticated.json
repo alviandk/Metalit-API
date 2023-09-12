@@ -1,0 +1,55 @@
+{
+  "name": "Authenticated",
+  "description": "Default role given to authenticated user.",
+  "type": "authenticated",
+  "permissions": [
+    {
+      "action": "api::course.course.find"
+    },
+    {
+      "action": "api::course.course.findOne"
+    },
+    {
+      "action": "api::feedback.feedback.create"
+    },
+    {
+      "action": "api::feedback.feedback.delete"
+    },
+    {
+      "action": "api::feedback.feedback.find"
+    },
+    {
+      "action": "api::feedback.feedback.update"
+    },
+    {
+      "action": "api::user-activity.user-activity.create"
+    },
+    {
+      "action": "api::user-activity.user-activity.find"
+    },
+    {
+      "action": "api::user-activity.user-activity.findOne"
+    },
+    {
+      "action": "api::user-activity.user-activity.update"
+    },
+    {
+      "action": "api::user-progress.user-progress.create"
+    },
+    {
+      "action": "api::user-progress.user-progress.find"
+    },
+    {
+      "action": "api::user-progress.user-progress.findOne"
+    },
+    {
+      "action": "api::user-progress.user-progress.update"
+    },
+    {
+      "action": "plugin::users-permissions.auth.changePassword"
+    },
+    {
+      "action": "plugin::users-permissions.user.me"
+    }
+  ]
+}

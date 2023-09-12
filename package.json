@@ -1,0 +1,32 @@
+{
+  "name": "metalit-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.13.5",
+    "@strapi/plugin-users-permissions": "4.13.5",
+    "@strapi/provider-upload-aws-s3": "^4.13.5",
+    "@strapi/strapi": "4.13.5",
+    "better-sqlite3": "8.5.0",
+    "strapi-plugin-config-sync": "^1.1.3",
+    "strapi-plugin-import-export-entries": "^1.21.1"
+  },
+  "author": {
+    "name": "Alvian"
+  },
+  "strapi": {
+    "uuid": "2c928b66-f833-45d1-bd3d-3ce140438b0f"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
